@@ -1,0 +1,52 @@
+/*   *******************
+       CART         
+******************   */
+
+.cart{
+    text-align: center;
+}
+
+.cart .cart-text{
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.cart table {
+    width: 100%;
+    margin-top: 50px;
+}
+.cart table tr{
+    margin-top: 50px;
+}
+
+.cart table tr td .cart-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cart table tr td .cart-img img{
+    width: 70px;
+    border-radius: 50px;
+    border: 1px solid;
+}
+
+.cart table tr td .cart-img p{
+    width: 2vw;
+    font-weight: bold;
+}
+
+.cart table tr td .plus-minus{
+    display: flex;
+    justify-content: center;
+}
+
+.cart table tr td .plus-minus button {
+    border: 0;
+    padding: 10px 20px;
+}
+.cart table tr td .plus-minus .minus{
+    border-radius: 20px 0 0 20px;
+}
+.cart table tr td .plus-minus .plus{
+    border-radius: 0 20px 20px 0;
+}

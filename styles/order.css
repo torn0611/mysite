@@ -1,0 +1,47 @@
+/*   *******************
+       ORDER ITEMS          
+******************   */
+
+.order .order-text {
+    width: 100%;
+    text-align: center;
+    background-color: #461DE6;
+    color: #fff;
+    height: 10%;
+}
+
+.order .order-text h1{
+    font-size: 2vw;
+}
+
+.order .shipment-detail{
+    padding:4%;
+}
+
+.order .shipment-detail table {
+    width: 45%;
+    padding: 20px;
+}
+.order .shipment-detail table tr td{
+    padding-top: 20px;
+    font-size: 1vw;
+}
+.order .shipment-detail form{
+    padding-top: 30px;
+    line-height: 3;
+}
+.order .shipment-detail form label{
+    font-size: 1vw;
+}
+.order .shipment-detail form input {
+    padding: 0.5% 10%;
+    border-radius: 10px;
+}
+.order .shipment-detail form button{
+    border: 0;
+    background-color: #461DE6;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 45px;
+    margin-top: 20px;
+}
